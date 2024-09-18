@@ -12,7 +12,7 @@ This predictive tool aims to provide valuable insights to various stakeholders i
 
 **Mehodology**
 
-Based on the python script provide, I took the following steps to achive the set out  goal:
+Based on the python script provided, I took the following steps to achive the set out  goal:
 
 1. Data Cleaning and Preprocessing:
 
