@@ -19,13 +19,17 @@ Based on the python script provided, I took the following steps to achive the se
 The script displays the wrangle function used to clean and preprocess real estate data.
 Key preprocessing steps include:
 -Filtering apartments in "Capital Federal" with a price below $400,000.
+
 -Removing outliers based on the surface_covered_in_m2 variable.
+
 -Splitting the lat-lon column into separate latitude and longitude columns.
+
 -Dropping features with high null counts, low and high cardinality categorical variables, leaky columns, and columns with multicollinearity.
 
 2. Data Concatenation and Exploration:
 
 -Data from multiple CSV files is concatenated into a single DataFrame.
+
 -A correlation heatmap of numerical features (excluding the target variable) is plotted to explore relationships between features.
 
 3. Model Building and Evaluation:
@@ -38,4 +42,5 @@ Key preprocessing steps include:
 4. Model Deployment:
 
 -A function make_prediction is created to allow predictions based on user-provided input.
+
 -An interactive dashboard using ipywidgets allows users to input parameters and see the predicted apartment price dynamically.
